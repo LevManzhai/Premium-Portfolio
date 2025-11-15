@@ -1,6 +1,8 @@
 # Alex Turner - Premium Portfolio
 
-A stunning, fully-featured portfolio website showcasing the **£599 Premium Portfolio** service by [WebRise Development](https://webrise-development.com).
+A stunning, fully-featured portfolio website showcasing the **£599 Premium Portfolio** service by WebRise Development.
+
+[Live Demo](https://levmanzhai.github.io/Premium-Portfolio/#)
 
 ## 🎯 Project Overview
 
@@ -79,28 +81,6 @@ This is a **client-facing demo** for **Alex Turner**, a fictional Creative Direc
 - Smooth animations throughout
 - Professional and conversion-focused
 
-## 🚀 Getting Started
-
-### Installation
-
-```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm start
-
-# Build for production
-npm run build
-```
-
-### Development
-
-The app will run on `http://localhost:3000`
-
-- Edit files in `/src` directory
-- Hot reload enabled for instant feedback
-- Tailwind CSS automatically compiles
 
 ## 📁 Project Structure
 
