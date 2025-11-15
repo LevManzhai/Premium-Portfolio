@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* About */}
-          <div className="col-span-1 md:col-span-2">
+          <div className="col-span-1 md:col-span-2 text-center md:text-left">
             <h3 className="font-serif text-2xl font-bold text-navy-900 dark:text-white mb-4">
               Alex Turner
             </h3>
@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
               Creative Director based in London, specializing in brand identity,
               digital experiences, and visual storytelling.
             </p>
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 justify-center md:justify-start">
               <a
                 href="https://linkedin.com"
                 target="_blank"
@@ -55,7 +55,7 @@ const Footer: React.FC = () => {
           </div>
 
           {/* Quick Links */}
-          <div>
+          <div className="text-center md:text-left">
             <h4 className="font-semibold text-navy-900 dark:text-white mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
           </div>
 
           {/* Contact Info */}
-          <div>
+          <div className="text-center md:text-left">
             <h4 className="font-semibold text-navy-900 dark:text-white mb-4">Get in Touch</h4>
             <ul className="space-y-2 text-gray-600 dark:text-gray-400">
               <li>London, UK</li>
